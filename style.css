@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0.8463760504201681) 0%, rgba(9,9,121,0.8519782913165266) 44%, rgba(119,0,255,0.5802696078431373) 100%);
+}
+
+.foto-perfil{
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family:Lato,'Helvetica Neue',Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0) ;
+}
+
+.icones{
+    padding-left:5px ;
+    font-size: 40px;
+    color: white;
+}
+
+.cor-secundaria{
+background-color: black;
+}
+
+.titulosBrancos{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.textosBrancos{
+    color: white;
+    font-weight: bolder;
+}
+
+.card-text{
+    font-size: 16px;
+}
+.color-p{
+    color: rgba(255, 255, 255, 0.658);
+}
